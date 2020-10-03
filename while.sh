@@ -14,3 +14,6 @@ then
 else
     echo "you should have entered less than 20 to see the magic."
 fi
+
+
+# until loop is used just like the while loop but it just checks the false condition.
