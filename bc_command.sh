@@ -12,3 +12,6 @@ read num
 
 echo -e "The square root of $num is:\c"
 echo "scale=5;sqrt($num)" | bc -l
+
+x=$(echo "$num1+$num2" | bc)
+# for assigning a value to a variable using bc command.
